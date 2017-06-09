@@ -1,0 +1,16 @@
+.avatar-small[style*="USER ID"]+.member-inner .member-username .member-username-inner:after, /* Fill these two lines in with the user ID of the person you want the tag on. */
+.avatar-large[style*="USER ID"]+.comment .username-wrapper .user-name:after {
+    content: "CONTENT"; /* Put what you want the tag to say here. */
+    background: #BACKGROUNDHEX; 
+    font-size: SIZEpx;
+    font-weight: 600; /* Don't touch this unless you know what you're doing. */
+    color: #TEXTHEX!important;
+    margin-left: 6px; /* Don't touch this unless you know what you're doing. */
+    padding: 1px 2px; /* Don't touch this unless you know what you're doing. */
+    border-radius: 3px; /* Don't touch this unless you know what you're doing. */
+    text-transform: CASE; /*UPPERCASE, lowercase, or Capitalize */
+    vertical-align: bottom; /* Don't touch this unless you know what you're doing. */
+    line-height: 16px; /* Don't touch this unless you know what you're doing. */
+    -ms-flex-negative: 0; /* Don't touch this unless you know what you're doing. */
+    flex-shrink: 0; /* Don't touch this unless you know what you're doing. */
+}
